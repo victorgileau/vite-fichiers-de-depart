@@ -3,6 +3,7 @@
 @use './mixins/text';
 
 .card {
+    background-color: variables.$primary;
     margin: 5px;
     padding: 5px;
     &__btn {
